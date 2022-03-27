@@ -1,0 +1,187 @@
+.PresentationDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoMartu {
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+  margin-left: 50px;
+}
+
+.MartuWhoIsShe {
+  color: black;
+  font-weight: 700;
+  margin: 110px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  letter-spacing: 1.05px;
+  font-size: 16px;
+}
+
+.textMartuPresentation {
+  font-family: "Quattrocento Sans", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.holaSoyMartu {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+@media (max-width: 1029px) {
+  .fotoMartu {
+    border-radius: 100%;
+    height: 290px;
+    width: 290px;
+    margin-left: 34px;
+  }
+  .MartuWhoIsShe {
+    color: black;
+    font-weight: 700;
+    margin: 59px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    letter-spacing: 1.05px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .fotoMartu {
+    border-radius: 100%;
+    height: 220px;
+    width: 220px;
+    margin-left: 34px;
+  }
+  .MartuWhoIsShe {
+    color: black;
+    font-weight: 700;
+    margin: 66px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    letter-spacing: 1.05px;
+    font-size: 13px;
+  }
+  .holaSoyMartu {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 610px) {
+  .PresentationDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .fotoMartu {
+    border-radius: 100%;
+    height: 220px;
+    width: 220px;
+    margin-left: 34px;
+    padding-bottom: 15px;
+  }
+  .MartuWhoIsShe {
+    color: black;
+    font-weight: 700;
+    margin: 19px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    letter-spacing: 1.05px;
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+  .holaSoyMartu {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .PresentationDiv {
+    display: flex;
+    padding-right: 25px;
+    padding-left: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-family: "M PLUS 1p", sans-serif;
+  }
+  .fotoMartu {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin-left: 16px;
+    padding-bottom: 15px;
+  }
+  .MartuWhoIsShe {
+    color: black;
+
+    font-weight: 700;
+    margin: 16px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    letter-spacing: 1.05px;
+    font-size: 11px;
+    padding-bottom: 10px;
+  }
+  .holaSoyMartu {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .PresentationDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: "M PLUS 1p", sans-serif;
+  }
+  .fotoMartu {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin-left: 3px;
+    padding-bottom: 15px;
+  }
+  .MartuWhoIsShe {
+    color: black;
+    font-weight: 700;
+    margin: 3px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    letter-spacing: 1.05px;
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  .holaSoyMartu {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}

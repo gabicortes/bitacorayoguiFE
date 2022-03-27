@@ -1,0 +1,72 @@
+.navBarDiv {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 1);
+  top: 0;
+  z-index: 1;
+}
+
+.logoImage {
+  height: 75px;
+  width: 75px;
+  margin-left: 40px;
+}
+
+.buttonNavBar {
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.buttonsNavBar {
+  margin: 0px 15px 0 0;
+}
+
+.buttonNavBar:hover {
+  cursor: pointer;
+}
+
+.burgerMenuButton {
+  display: none;
+  width: 35px;
+  height: 35px;
+  margin-right: 40px;
+}
+
+.burgerMenu {
+  position: absolute;
+  top: 100px;
+  background-color: white;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  opacity: 0.9;
+  display: none;
+}
+
+.buttonBurgerNavBar {
+  cursor: pointer;
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .buttonsNavBar {
+    display: none;
+  }
+
+  .burgerMenuButton {
+    display: block;
+  }
+
+  .burgerMenu {
+    display: flex;
+  }
+}

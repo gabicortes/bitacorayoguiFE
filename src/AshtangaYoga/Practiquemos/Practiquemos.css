@@ -1,0 +1,132 @@
+.divPractiquemos {
+  background-color: #f9ac93;
+}
+
+.practiquemosTitle {
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 40px;
+  padding-top: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: 120px;
+  color: #fafafa;
+}
+
+.timetable {
+  color: #fafafa;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 125px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.timetable2 {
+  padding-top: 40px;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #fafafa;
+}
+
+.iconGoogleMaps {
+  margin-left: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.directionBolivar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 50px 0;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+@media (max-width: 823px) {
+  .timetable {
+    color: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 125px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .timetable {
+    color: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 60px 0px;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 40px;
+  }
+  .practiquemosTitle {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #fafafa;
+  }
+  .directionBolivar {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 471px) {
+  .timetable {
+    color: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 30px 0px;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 40px;
+  }
+  .practiquemosTitle {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fafafa;
+  }
+}
+
+@media (max-width: 320px) {
+  .timetable {
+    color: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 10px 0px;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 40px;
+  }
+  .practiquemosTitle {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fafafa;
+  }
+}

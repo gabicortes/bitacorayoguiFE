@@ -1,0 +1,58 @@
+.sloganDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9ac93;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.foxImage {
+  height: 360px;
+  width: 360px;
+  margin-right: 113px;
+  margin-top: 79px;
+}
+.slogan {
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: 62px;
+  margin-left: 150px;
+  margin-top: 135px;
+}
+
+@media (max-width: 800px) {
+  .foxImage {
+    margin-right: 75px;
+    height: 284px;
+    width: 284px;
+  }
+  .slogan {
+    margin-left: 75px;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 660px) {
+  .foxImage {
+    margin-right: 30px;
+    height: 230px;
+    width: 230px;
+  }
+  .slogan {
+    margin-left: 30px;
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 420px) {
+  .foxImage {
+    margin-right: 30px;
+    height: 180px;
+    width: 180px;
+  }
+  .slogan {
+    font-size: 21px;
+    margin-top: 121px;
+  }
+}
